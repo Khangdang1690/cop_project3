@@ -102,3 +102,57 @@ members contributed equally to the design, implementation, and testing
 of the program. No code was copied from other students or from
 unauthorized online sources. Any external references used are
 standard-library documentation only.
+
+---
+
+## Submission Requirements
+
+### 1. PDF Document
+
+The accompanying PDF must include:
+
+1. Group member names + group number
+2. Instructions to compile/run on the student cluster
+3. Work distribution (percentage per member)
+4. Academic integrity statement
+
+### 2. Code Folder
+
+- Only necessary files (`main.cpp`, `tree-car.txt`, `tree-investment.txt`, `README.md`)
+- Proper structure (single flat folder, nothing extraneous)
+- Must be zipped as:
+
+```
+<GroupNumber>.zip
+```
+
+---
+
+## Coding Standards
+
+- Clear comments for all functions
+- Meaningful variable and function names
+- Clean, readable structure
+- Follow C++ best practices (RAII, const-correctness, no raw new/delete leaks, no globals)
+
+---
+
+## Grading Rubric (100 Points)
+
+| Criteria | Points |
+|---|---:|
+| Program runs correctly (cluster instructions) | 20 |
+| Output correct & matches format | 20 |
+| Code documentation (comments) | 15 |
+| Variable & function naming | 15 |
+| Code quality & readability | 10 |
+| Correct linked tree implementation | 20 |
+| **Total** | **100** |
+
+---
+
+## Important Constraints
+
+- No hardcoding — the program works for any valid tree file.
+- Handles any valid tree file (preorder, level-order, or shuffled line order).
+- Output format matches the assignment specification exactly.
